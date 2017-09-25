@@ -9,7 +9,7 @@ div.container {
 header, footer {
 	color: white;
 	background-color: rgb(22,138,218);
-	clear: left; <!-- far left side of screen reserved for navigation (nav) bar -->
+	clear: left; <!--far left side of screen reserved for navigation (nav) bar -->
 	text_agline: center;
 } <!-- Create main text section that covers the majority of the center but reserves are for nav bar -->
 nav {
