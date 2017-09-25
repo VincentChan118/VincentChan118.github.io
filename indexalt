@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <!-- overall container -->
+  <div id="container" style="width:1000px">
+    
+    <!-- title container-->
+    <div id="header" style="background-color:#00428C;">
+      <h1>Title Goes Here</h1>
+    </div> <!-- title container end-->
+    
+    <!-- nav bar container -->
+    <div id="menu" style="background-color:#23CBA9;height:200px;width:100px;float:left;">
+      <b>Navigation</b>
+    </div> <!-- nav bar container end -->
+    
+    <!-- main text container -->
+    <div id="content" style="background-color:#FFFFFF;height:200px;width:400px;float:left;">
+      <p>Main text goes here</p>
+    </div> <!-- main text container end -->
+    
+    <!-- footer -->
+    <div id="footer" style="background color:#00428C;clear:booth;text-align:center">
+      <P>stuff</p>
+    </div> <!-- footer end-->
+  </div>
+</body>
+</html>
