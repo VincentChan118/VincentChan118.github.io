@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <style>
-  .body {
-    background-color:#F59233;
-  } /*set background color doesn't work*/
+  
+  div.container {
+    width:100%;
+    border:3px #0031A0;
+    background-color:#4C83E2;
+  }
   
   .topnav {
     overflow:hidden;
@@ -36,9 +39,9 @@
   } /*overall style of header*/
   
   .aside {
-    float:left;
     margin:10px;
     border-right:3px #0031A0;
+    float:left;
   } /*create left section for images and video*/
   
   .article {
@@ -51,26 +54,29 @@
   
 </style>
 <body>
-  <!-- create top navigation bar -->
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="favoritebook.html">Favorite Book</a>
-    <a class="active" href="personalhobby.html">Personal Hobby</a>
-  </div> <!--end topnav-->
+  <div class="container">
+    
+    <!-- create top navigation bar -->
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="favoritebook.html">Favorite Book</a>
+      <a class="active" href="personalhobby.html">Personal Hobby</a>
+    </div> <!--end topnav-->
+    
+   <div class="header"> <!--creat title section-->
+      <h1>Personal Hobby: Cycling</h1>
+   </div> <!--end title section-->
   
-  <div id="header"> <!--creat title section-->
-    <h1>Personal Hobby: Cycling</h1>
-  </div> <!--end title section-->
+   <div class="aside">
+      <p><!--image 1-->PLACEHOLDER</p>
+      <p><!--video 1-->PLACEHOLDER</p>
+   </div> <!--create aside for images and video-->
   
-  <aside>
-    <p><!--image 1-->PLACEHOLDER</p>
-    <p><!--video 1-->PLACEHOLDER</p>
-  </aside> <!--create aside for images and video-->
-  
-  <article>
-    <h1>PLACEHOLDER</h1>
-    <p>PLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDER</p>
-  </article>
-  
+    <div class="article">
+     <h1>PLACEHOLDER</h1>
+     <p>PLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDER</p>
+    </div> <!--create main text section-->
+ 
+  </div>
 </body>
 </html>
