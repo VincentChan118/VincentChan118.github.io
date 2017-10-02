@@ -12,7 +12,7 @@
  div.header {
     width:100%;
     background-color:#41CDF4;
-    border:3px #0031A0;
+    border-bottom: solid 2px SlateBlue
  } /*create formatting for header*/
   
  .dropbtn {
@@ -22,55 +22,53 @@
     font-size:16px;
     border:none;
     cursor:pointer;
-}
+} /*formatting for dropdown menu*/
 
 .dropdown {
     position:relative;
     display:inline-block;
-}
+} /*formatting for dropdown menu*/
 
 .dropdown-content {
     display:none;
     position:absolute;
     background-color:#00f0d8;
     min-width:160px;
-}
+} /*formatting for dropdown menu*/
 
 .dropdown-content a {
     color:black;
     padding:12px 16px;
     text-decoration:none;
     display:block;
-}
+} /*formatting for dropdown menu*/
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+} /*formatting for dropdown menu*/
   
 </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container"> <!--overall container-->
     
   	 <div class="header">
        <div class="dropdown">
        <button class="dropbtn">Menu</button>
-     
-        <div class="dropdown-content">
+       <div class="dropdown-content">
           <a href="index.html">Home</a>
           <a href="favoritebook.html">Favorite Book</a>
           <a href="personalhobby.html">Personal Hobby</a>
           <a href="futurecareer.html">Future Career</a>
           <a href="moviereview.html">Movie Review</a>
         </div>
-      <h1 style="float:right;">Future Career: Civil Engineering</h1>
-     </div>
+      <h1 style="float:right;margin:left18px;">Future Career: Civil Engineering</h1>
+     </div> <!--create header-->
      <div class="content" border-bo>
-      <p clear="left">Civil Engineering is a preofessional engineering career that deals with the physical and natural environment. Civil Engineering includes the design, construction and maintenance of structures such as buildings, roads, and brdiges.</p>
-     </div>
-    </div>
-  </div>
+        <p clear="left">Civil Engineering is a preofessional engineering career that deals with the physical and natural environment. Civil Engineering includes the design, construction and maintenance of structures such as buildings, roads, and brdiges.</p>
+     </div> <!--main text area-->
+</div> <!--end overall container-->
 </body>
 </html>
