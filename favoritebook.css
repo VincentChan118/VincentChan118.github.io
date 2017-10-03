@@ -1,45 +1,48 @@
-  .topnav {
- -    overflow:hidden;
- -    background-color:#913615;
- -  } /*overall style of topnav bar*/
- -  
- -  .topnav a {
- -    float:left;
- -    color:#f2f2f2;
- -    padding:12px 12px;
- -    text-align:center;
- -    font-size:20px;
- -    display:block;
- -    text-decoration:none;
- -  } /*style of each block and text*/
- - 
- -  .topnav a:hover {
- -    background-color:#EC711C;
- -  } /*change color when blocks are hovered over*/
- -  
- -  .topnac a.active {
- -    background-color:#EC711C;
- -  } /*set background color for link to crueent page*/ /*CURRENTLY DEFUNCTIONAL*/
- -  
- -  .header {
- -  	background-color:#ff8000;
- -    padding:1em;
- -  }
- -  
- -  .header h {
- -    font-size:40px;
- -    text-align:center;
- -  } /*overall style of header*/
- -  
- -  .content {
- -    float:left;
- -  } /*formatting for main text area*/
- -  
- -  .content p {
- -    margin:8px;
- -    text align:left;
- -  } /*formatting for text*/
- -  
- -  .content img.wrap {
- -     float: left
- -  }
+.topnav {
+	overflow:hidden;
+	background-color:#913615;
+} /*overall style of topnav bar*/
+  
+.topnav a {
+	float:left;
+	color:#f2f2f2;
+  padding:12px 12px;
+	text-align:center;
+	Font-size:20px;
+  Display:block;
+ Text-decoration:none;
+} /*style of each block and text*/
+ 
+.topnav a:hover {
+	background-color:#EC711C;
+} /*change color when blocks are hovered over*/
+ 
+.topnac a.active {
+	background-color:#EC711C;
+} /*set background color for link to crueent page*/ /*CURRENTLY DEFUNCTIONAL*/
+ 
+.header {
+	 background-color:#ff8000;
+	 padding:1em;
+}
+  
+.header h {
+	 font-size:40px;
+	 text-align:center;
+} /*overall style of header*/
+ 
+.content {
+ 	 float:left;
+} /*formatting for main text area*/
+ 
+.content p {
+ 	  margin:8px;
+ 	  text align:left;
+} /*formatting for text*/
+ 
+.content img.wrap {
+    float: left
+}
+
+
+
