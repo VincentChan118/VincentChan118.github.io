@@ -6,11 +6,11 @@
 .topnav a {
 	float:left;
 	color:#f2f2f2;
-  padding:12px 12px;
+ 	padding:12px 12px;
 	text-align:center;
 	Font-size:20px;
-  Display:block;
- Text-decoration:none;
+ 	Display:block;
+  	text-decoration:none;
 } /*style of each block and text*/
  
 .topnav a:hover {
@@ -22,27 +22,27 @@
 } /*set background color for link to crueent page*/ /*CURRENTLY DEFUNCTIONAL*/
  
 .header {
-	 background-color:#ff8000;
-	 padding:1em;
+	background-color:#ff8000;
+	padding:1em;
 }
   
 .header h {
-	 font-size:40px;
-	 text-align:center;
+	font-size:40px;
+	text-align:center;
 } /*overall style of header*/
  
 .content {
- 	 float:left;
+ 	float:left;
 } /*formatting for main text area*/
  
 .content p {
- 	  margin:8px;
- 	  text align:left;
+ 	 margin:8px;
+ 	 text align:left;
 } /*formatting for text*/
  
 .content img.wrap {
-    float: left
-}
+    float:left;
+} /*Make text wrap image*/
 
 
 
